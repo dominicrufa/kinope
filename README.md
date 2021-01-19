@@ -12,7 +12,4 @@ an enhanced sampling and free energy calculation library for protein conformatio
 Copyright (c) 2021, dominic rufa
 
 
-#### Acknowledgements
- 
-Project based on the 
-[Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.5.
+
