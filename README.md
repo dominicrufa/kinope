@@ -7,6 +7,8 @@ kinope
 
 an enhanced sampling and free energy calculation library for protein conformational reorganization
 
+see `examples/FAH.py` for running code examples and annotations 
+
 ### Copyright
 
 Copyright (c) 2021, dominic rufa
