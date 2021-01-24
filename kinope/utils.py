@@ -75,3 +75,18 @@ def make_core_file(numSteps,
         from xml.dom.minidom import parseString
         dom = parseString(xml)
         outfile.write(dom.toprettyxml())
+
+def deserialize_xml(xml_filename):
+    """
+    load and deserialize an xml
+    arguments
+        xml_filename : str
+            full path of the xml filename
+    returns
+        xml_deserialized : deserialized xml object
+    """
+    from simtk.openmm.openmm import XmlSerializer
+    with open(xml_filename, 'r') as infile:
+        xml_readable = infile.read()
+    xml_deserialized = XmlSerializer.deserialize(xml_readable)
+    return xml_deserialized
